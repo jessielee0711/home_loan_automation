@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# PyCharm files
+.idea/
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Test reports and artifacts
+reports/
+allure-results/
+junit/
+htmlcov/
+
+# Selenium screenshots or temporary files
+screenshots/
+temp/
+*.png
+
+# Ignoring compiled Python files inside directories
+page_objects/__pycache__/
+tests/__pycache__/
+
